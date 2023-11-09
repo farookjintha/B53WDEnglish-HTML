@@ -1,0 +1,12 @@
+h1 {
+  color: goldenrod;
+}
+
+.myclass {
+  font-style: italic;
+}
+
+#login-link {
+  text-decoration: none;
+  color: brown;
+}

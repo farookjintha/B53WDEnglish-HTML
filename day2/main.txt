@@ -1,0 +1,12 @@
+CSS is used for styling and responsiveness.
+
+Cascading Stylesheets
+
+property: value;
+margin: 10px;
+background-color: red;
+
+
+inline css - inside the tag itself by using style attribute
+internal css - is used in the html file inside head, using <style></style>
+external css -  is used in a separate css file. (.css)
