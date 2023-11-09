@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      function handleFormSubmit(event) {
+        event.preventDefault();
+        let form = document.getElementById("registration-form");
+
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let mobileNumber = document.getElementById("mobileNumber").value;
+        let address = document.getElementById("address").value;
+
+        let userDetails = {
+          name,
+          email,
+          mobileNumber,
+          address,
+        };
+        //logic
+        console.log("User has been registered successfully: ", userDetails);
+        form.reset();
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <h1>User Registration</h1>
+      <div>
+        <form id="registration-form" onsubmit="handleFormSubmit(event)">
+          <div>
+            <label>Name</label>
+            <input id="name" type="text" placeholder="Enter your name" />
+          </div>
+          <div>
+            <label>Email</label>
+            <input id="email" type="email" placeholder="Enter your email" />
+          </div>
+          <div>
+            <label>Password</label>
+            <input id="email" type="password" placeholder="Enter your email" />
+          </div>
+          <div>
+            <label>Mobile Number</label>
+            <input
+              id="mobileNumber"
+              type="text"
+              placeholder="Enter your mobile number"
+            />
+          </div>
+          <div>
+            <label>Address</label>
+            <input id="address" type="text" placeholder="Enter your address" />
+          </div>
+          <div>
+            <button type="submit">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

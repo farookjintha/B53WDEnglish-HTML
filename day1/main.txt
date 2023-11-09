@@ -1,0 +1,63 @@
+HTML - HyperText Markup Language
+
+HTML gives structure to your application. With that we will be applying styles(CSS) and functionalities(JS).
+
+HTML vs HTML5
+
+HTML
+1. Doctype is not presented in HTML
+2. Does not support audio and video.
+3. Doesnt not allow JS to interact with the browser.
+4. It doesnt work well in all browsers.
+5. Not mobile friendly.
+
+HTML5
+1. Doctype is  presented in HTML5
+2. Supports Audio and Video with dedicated tags. <audio> , <video>
+3. Allows JS to interact with the browser using WebAPIs.
+4. Works well in all of the modern browsers.
+5. Responsiveness and Mobile Friendly.
+
+
+HTML  - some pre-defined tags / elements to be used to build applications, and it follows hierarchy.
+
+XHTML - XML + HTML
+This will have user defined tags / elements to be used to build frontend applications and when a tag is opened, it should closed at some point.
+
+
+Meta Tags - Provides information about the web page and it is  SEO friendly. (Web Crawling / How does search engine work?)
+
+
+html -> this is the main tag to be used to start with a web page
+<html> </html>
+Head -> head tag has all the information about the page and has the links and integration of external scripts/styles.
+<head></head>
+body -> it shows all the content in the browser.
+
+div  
+span
+h1 h2 h3 h4 h5 h6
+img
+a
+
+Elements can be differentiated into
+1. Block Level Elements vs Inline elements
+Block level elements consume entire width of the parent.
+Inline elements consume only the required width.
+
+Block Level - div, h1, p
+Inline - span, img, a
+
+2. Semantic Elements vs Non Semantic Elements
+Semantic elements have descriptive name that shows its purpose.
+Semantic - form, table, audio, video, header, footer
+
+Non Semantic elements dont have descriptive name to define its purpose.
+Non Semantic - div, span, img, p, h1
+
+div
+section
+article
+
+div - is block element
+ span - inline element
