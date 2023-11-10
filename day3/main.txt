@@ -1,0 +1,73 @@
+BOX MODEL:
+Every element in html will form a box by itself
+Box will have four things
+1. Content - Innermost part in the box - Home
+2. Padding - Space surrounding the content. - Backyard or space between the home and the compound.
+3. Border - Space surrounding the padding. - Compound wall.
+4. Margin - Space surrounding the border, space between two elements. - Space between two compound wall, between two houses.
+
+padding: value; (value will be applied on all sides)
+padding: value1 value2; (value1 will be applied to top & bottom; value2 will be applied to left & right)
+padding: value1 value2 value3 value4; (value1 for padding-top; value2 for padding-right; value3 for padding-bottom; value4 for padding-left)
+
+
+padding-top: value;
+padding-left: value;
+padding-bottom: value;
+padding-right: value;
+
+
+margin: value; (value will be applied on all sides);
+margin: value1 value2; (value1 will be applied on top and bottom; value2 will be applied on left&right);
+margin: value1 value2 value3 value4; (value1 for margin-top; value2 for margin-right; value3 for margin-bottom; value4 for margin-left)
+
+margin-top: value;
+margin-left: value;
+margin-bottom: value;
+margin-right: value;
+
+
+
+
+// PSEUDO CLASS
+imaginary class;
+
+:hover, :active, :visited -> examples of pseudo class;
+:nth-child, :first-child, :last-child
+
+
+// PSEUDO ELEMENTS  - applied to elements
+::after, ::before, ::first-line
+
+
+
+// POSITION - places the element in the given position
+
+position: static; (Default) not change in the position, it will be stilled in the default positon. top, left, bottom, right will not be effective.
+position: relative; (is used to move from original postion by using top/right/left/bottom)
+position: absolute; (is used to move from its parent postion by using top/right/bottom/left), to make abosulte work , parent should be relative
+position: fixed; (will be fixed, irrespective of its parent, it takes root element postion and will be fixed even on scrolling )
+position: sticky; (it considers parents positon; it will work like a static until it reaches its postion; after it works like fixed (scrolling will not affect) )
+
+
+FLEX and GRID - Used for Layouts; To responsive layouts!
+
+FLEX / FLEXBOX / FLEX Layout -> single dimensional  -> row or column
+GRID / GRID layout - two-dimensional -> row and column
+
+
+
+FLEX
+display: flex
+
+horizontal -> row
+vertical -> column
+
+display:flex
+flex-direction
+flex-wrap
+justify-content
+align-items
+gap
+flex-grow
+flex-basis

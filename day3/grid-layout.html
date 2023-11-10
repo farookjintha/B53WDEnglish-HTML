@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .my-container {
+        border: 5px solid red;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+      }
+      .childDiv {
+        border: 10px solid blue;
+        padding: 10px;
+      }
+
+      .div1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      .div9 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+      .div3 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="my-container">
+      <div class="childDiv div1">DIV 1</div>
+      <div class="childDiv div2">DIV 2</div>
+      <div class="childDiv div3">DIV 3</div>
+      <div class="childDiv div4">DIV 4</div>
+      <div class="childDiv div5">DIV 5</div>
+      <div class="childDiv div6">DIV 6</div>
+      <div class="childDiv div7">DIV 7</div>
+      <div class="childDiv div8">DIV 8</div>
+      <div class="childDiv div9">DIV 9</div>
+    </div>
+  </body>
+</html>
