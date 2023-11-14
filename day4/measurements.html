@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-size: 100px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+      .my-container {
+        border: 2px solid green;
+        font-size: 5px;
+      }
+      .child-1 {
+        font-size: 16px;
+        width: 700px;
+        height: 400px;
+        border: 2px solid red;
+      }
+      .child-2 {
+        font-size: 16px;
+        width: 300px;
+        height: 400px;
+        border: 2px solid blue;
+      }
+      .grand-child {
+        width: 30%;
+        border: 2px solid skyblue;
+      }
+
+      .child-3 {
+        font-size: 1em;
+        border: 2px solid brown;
+      }
+      .child-4 {
+        font-size: 0.5rem;
+        border: 2px solid orange;
+      }
+
+      .child-5 {
+        width: 50vw;
+        font-size: 30px;
+        height: 400px;
+        border: 2px solid rgb(64, 0, 255);
+      }
+      .child-6 {
+        height: 50vh;
+        width: 500px;
+        border: 2px solid rgb(48, 242, 9);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="my-container">
+      <h1>VH:</h1>
+      <div class="child child-6">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </div>
+
+      <h1>PX:</h1>
+      <div class="child child-1">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </div>
+      <h1>%:</h1>
+      <div class="child child-2">
+        <div class="grand-child">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </div>
+      </div>
+
+      <h1>EM:</h1>
+      <div class="child child-3">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </div>
+      <h1>REM:</h1>
+
+      <div class="child child-4">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </div>
+      <h1>VW:</h1>
+
+      <div class="child child-5">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </div>
+    </div>
+  </body>
+</html>

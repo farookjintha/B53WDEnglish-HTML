@@ -1,0 +1,15 @@
+OVERFLOW - handles the content inside the container based on the height.
+
+overflow - visible;
+overflow - hidden;
+overflow - scroll;
+overflow - auto;
+
+MEASUREMENT UNITS:
+
+px  - it is fixed, irrespective of parent / screen size.
+% - it is relative to the parent.
+em - by default, it is 16px. if parent has some size, it will consider that size as 1em. (widely used in font size)
+rem - by default, it is 16px. if root has some size, it will consider that size as 1rem.  (widely used in font size)
+vh - viewport height - it refers to the height, it consider the available space for the web page to be shown based on the browser / device.
+vw - viewport width - it refers to the weight, it consider the available space for the web page to be shown based on the browser / device.
