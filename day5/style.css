@@ -1,0 +1,38 @@
+.container {
+  width: 50%;
+  height: 400px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  border: 2px solid brown;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  border: 2px solid green;
+  background-color: cadetblue;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .container {
+    width: 90%;
+    border-radius: 50%;
+    background-color: chocolate;
+    border: 2px solid red;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container {
+    width: 90%;
+    height: 90vh;
+    background-color: aquamarine;
+    border: 2px solid blue;
+    flex-direction: column;
+  }
+}

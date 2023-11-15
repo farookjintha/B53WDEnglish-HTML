@@ -1,0 +1,8 @@
+BOOTSTRAP - css framework that has pre-defined elements / components that can be used with our application.
+
+LAYOUT:
+
+1. Breakpoints
+2. container
+3. Grid
+    - Column Layout is bootstrap -> 12 Columns in the bootstrap layout
